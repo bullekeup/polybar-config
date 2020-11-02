@@ -17,5 +17,5 @@ export NETIF_WIRED=eno1
 export SENSOR_TEMP_PATH=/sys/devices/platform/xxx/hwmon/tempx_input
 ```
 
-Weather is retrieved from OpenWeatherAPI using a slightly modified version of [https://github.com/polybar/polybar-scripts/tree/master/polybar-scripts/openweathermap-fullfeatured], which loads the api KEY var from ~/.config/api_keys file, OPENWEATHER_API_KEY var.
+Weather is retrieved from OpenWeatherAPI using a slightly modified version of [https://github.com/polybar/polybar-scripts/tree/master/polybar-scripts/openweathermap-fullfeatured]. The API key is loaded from ~/.config/api_keys file env variable OPENWEATHER_API_KEY.
 
