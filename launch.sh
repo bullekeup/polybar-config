@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
 ## Add this to your wm startup file.
+[ -n "$(command -v displayset)" ] && displayset
 
 # Terminate already running bar instances
 killall -q polybar
